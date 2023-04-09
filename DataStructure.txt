@@ -1,0 +1,39 @@
+Prediction of Modernized Loan Approval System Based on Machine Learning Approach
+
+2021 International Conference on Intelligent Technologies,Issue Date:04.August.2021
+
+
+Machine learning, Data, Loan, Training, Testing,Prediction
+
+Prediction_of_Modernized_Loan_Approval
+
+
+
+prediction_of_modernized_loan_approval
+
+
+Loan_Approval_Prediction
+
+Loan_ID
+Gender
+Married
+Dependents
+Education
+Self_Employed
+ApplicantIncome
+CoapplicantIncome
+LoanAmount
+Loan_Amount_Term
+Credit_History
+Property_Area
+Prediction
+
+
+Loan_Approval_Prediction,detection_ratio,detection_accuracy
+
+ detection_accuracy.objects.create(names="Random Forest Classifier", ratio=accuracy_score(y_test, rfpredict) * 100)
+
+
+varchar(300) NOT NULL
+
+
